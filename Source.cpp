@@ -23,7 +23,7 @@ vod main()
 	cout << "Select a nuber:"; // Note, no end1 no this line 
 
 	int choice; // Variable declaration
-	cin >> choice; //Input
+	cin >> choice; // Input
 
 	// Decision
 	if (choice == 1) // Note the double equal symbol
@@ -34,57 +34,57 @@ vod main()
 
 	if (choice == 2)
 	{
-		"Processing 'Button Layout' choice..." << end1;
+		cout << "Processing 'Button Layout' choice..." << end1;
 	}
 
 	if (choice == 3)
 	{
-		"Processing 'Keybindings' choice..." << end1;
+		 cout << "Processing 'Keybindings' choice..." << end1;
 	}
 
 	if (choice == 4)
 	{
-		"Processing 'onEvent Scripts' choice..." << end1;
+		cout << "Processing 'onEvent Scripts' choice..." << end1;
 	}
 
 	if (choice == 5)
 	{
-		"Processing 'Main Menu Bar' choice..." << end1;
+		cout << "Processing 'Main Menu Bar' choice..." << end1;
 	}
 
 	if (choice == 6)
 	{
-		"Processing 'Mise Options' choice..." << end1;
+		cout << "Processing 'Misc Options' choice..." << end1;
 	}
 
 	if (choice == 7)
 	{
-		"Processing 'Unlocke Dragging' choice..." << end1;
+		cout << "Processing 'Unlock Dragging' choice..." << end1;
 	}
 
 	if (choice == 8)
 	{
-		"Processing 'Show Button IDs' choice..." << end1;
+		cout << "Processing 'Show Button IDs' choice..." << end1;
 	}
 
 	if (choice == 9)
 	{
-		"Processing 'Show Actions IDs' choice..." << end1;
+		cout << "Processing 'Show Action IDs' choice..." << end1;
 	}
 
 	if (choice == 10)
 	{
-		"Processing 'COPY' choice..." << end1;
+		cout << "Processing 'COPY' choice..." << end1;
 	}
 
 	if (choice ==11)
 	{
-		"Processing 'PASTE' choice..." << end1;
+		cout << "Processing 'PASTE' choice..." << end1;
 	}
 
 	if (choice < 0 || choice > 11) // Note OR operator
 	{
-		cout << "Invaild Choice" << end1;
+		cout << "Invalid Choice" << end1;
 	}
 	system("pause");
 }
