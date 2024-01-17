@@ -2,7 +2,7 @@
 
 using namespace std;
 
-vod main()
+void main()
 {
 
 	system("cls");
@@ -20,7 +20,7 @@ vod main()
 	cout << "10. COPY" << end1;
 	cout << "11. PASTE" << end1;
 	cout << "         " << end1; // the blank line
-	cout << "Select a nuber:"; // Note, no end1 no this line 
+	cout << "Select a number:"; // Note, no end1 in this line 
 
 	int choice; // Variable declaration
 	cin >> choice; // Input
@@ -29,7 +29,7 @@ vod main()
 	if (choice == 1) // Note the double equal symbol
 	{
 		cout << "Processing 'Change Actions' choice..." << end1;
-		// Note the use of single-quotes inside double-qutes.
+		// Note the use of single-quotes inside double-quotes.
 	}
 
 	if (choice == 2)
@@ -77,7 +77,7 @@ vod main()
 		cout << "Processing 'COPY' choice..." << end1;
 	}
 
-	if (choice ==11)
+	if (choice == 11)
 	{
 		cout << "Processing 'PASTE' choice..." << end1;
 	}
