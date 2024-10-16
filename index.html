@@ -1,22 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas Exploration</title>
-    <style type="text/css">
-    canvas {
-        border: 5px solid black;
-background: purple;
-    }
-    body {
-        margin:0;
-    }
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Inkscape Output</title>
 
-    </style>
-    </head>
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+
+
 <body>
-   <canvas></canvas>
-<script src="JS Week3a.js"></script>
+<canvas id="myCanvas" width="800" height="800" style="border:1px solid #884acf;">
+    Your browser does not support the HTML canvas tag.
+</canvas>
+
+    <script>
+        {
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0,0,170,150,75);
+        }
+
+        {
+        
+        ctx.beginPath();
+        ctx.arc(95,50,40,0,2*Math.PI);
+        ctx.stroke();
+        ctx.top(); 
+        ctx.bottom();
+
+        }
+
+        {
+
+
+            
+        }
+
+        {
+            
+    ctx.save();
+    ctx.lineJoin = 'miter';
+    ctx.strokeStyle = 'rgb(0, 0, 0)';
+    ctx.lineCap = 'butt';
+    ctx.lineWidth = 1.000000;
+    ctx.fillStyle = 'rgb(255, 255, 0)';
+    ctx.beginPath();
+    ctx.transform(0.506236, 0.000000, 0.000000, 0.505711, 82.274469, 51.410524);
+    ctx.moveTo(342.857130, 449.505040);
+    ctx.lineTo(234.764940, 344.516400);
+    ctx.lineTo(279.468630, 488.419550);
+    ctx.lineTo(200.881970, 359.847880);
+    ctx.lineTo(208.393950, 510.347410);
+    ctx.lineTo(164.250710, 366.271350);
+    ctx.lineTo(134.098980, 513.910810);
+    ctx.lineTo(127.172840, 363.383190);
+    ctx.lineTo(61.251941, 498.885850);
+    ctx.lineTo(91.978093, 351.364870);
+    ctx.lineTo(-5.569921, 466.216610);
+    ctx.lineTo(60.877887, 330.971560);
+    ctx.lineTo(-62.167941, 417.955810);
+    ctx.lineTo(35.826363, 303.484630);
+    ctx.lineTo(-104.985860, 357.135850);
+    ctx.lineTo(18.397601, 270.631190);
+    ctx.lineTo(-131.333260, 287.578290);
+    ctx.lineTo(9.686712, 234.475540);
+    ctx.lineTo(-139.554650, 213.653670);
+    ctx.lineTo(10.241036, 197.289490);
+    ctx.lineTo(-129.133450, 140.006950);
+    ctx.lineTo(20.025741, 161.409550);
+    ctx.lineTo(-100.724450, 71.265628);
+    ctx.lineTo(38.426018, 129.090210);
+    ctx.lineTo(-56.112700, 11.748970);
+    ctx.lineTo(64.285711, 102.362200);
+    ctx.lineTo(1.898679, -34.803371);
+    ctx.lineTo(95.979959, 82.904945);
+    ctx.lineTo(69.664621, -65.466342);
+    ctx.lineTo(131.517300, 71.941014);
+    ctx.lineTo(142.927140, -78.313274);
+    ctx.lineTo(168.664780, 70.159311);
+    ctx.lineTo(217.082890, -72.536949);
+    ctx.lineTo(205.088300, 77.671789);
+    ctx.lineTo(287.472380, -48.500313);
+    ctx.lineTo(238.499240, 94.006409);
+    ctx.lineTo(349.672790, -7.713676);
+    ctx.lineTo(266.798250, 118.136810);
+    ctx.lineTo(399.775840, 47.260185);
+    ctx.lineTo(288.207210, 148.546780);
+    ctx.lineTo(434.633360, 112.967060);
+    ctx.lineTo(301.380910, 183.325570);
+    ctx.lineTo(452.055130, 185.278350);
+    ctx.lineTo(305.491610, 220.287880);
+    ctx.lineTo(450.946490, 259.650470);
+    ctx.lineTo(300.281000, 257.111240);
+    ctx.lineTo(431.377070, 331.410340);
+    ctx.lineTo(286.076510, 291.481900);
+    ctx.lineTo(394.576520, 396.049020);
+    ctx.lineTo(263.770630, 321.240230);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    ctx.restore();
+       
+        }
+
+
+        </script>
 </body>
 </html>
